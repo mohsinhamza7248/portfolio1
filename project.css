@@ -1,0 +1,68 @@
+body{
+  background-color: rgb(57, 59, 59);
+}
+.banner {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  /* background: #fff; */
+  transition: 0.5s;
+}
+
+.banner a{
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.banner .logo{
+  color: orange;
+text-decoration: none;
+font-size: 2em ;
+font-weight: 700;
+transition: 0.5s;
+}
+
+.banner a:hover{
+  color: gray;
+}
+
+.site-container{
+  /* margin: 100px 50px 100px 50px; */
+  display: grid;
+   /* grid-gap: 50px;  */
+  justify-content: center;
+  align-items: center;
+}
+
+ h2{
+ margin: auto;
+ padding: auto;
+ color: orange;
+}
+
+p{
+  color: rgb(210, 203, 203);
+  font-size: 18px;
+  font-weight: 28px;
+}
+
+.site-container img{
+  border-radius: 40px;
+  width: 500px;
+  height: 400px;
+}
+
+.site-container a{
+  text-decoration: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: whitesmoke;
+
+}
+
+.site-container a:hover{
+  color:rgb(210, 203, 203);
+}
+
